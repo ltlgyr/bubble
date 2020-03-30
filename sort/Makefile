@@ -1,7 +1,7 @@
-source:=bubble
+source:=sort
 all:$(source)
 
-bubble:bubble.c main.c
+sort:sort.c main.c
 	gcc -o $@  $^
 clean:
 	rm $(source)
